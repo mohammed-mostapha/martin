@@ -146,9 +146,18 @@ function toggleSidebar() {
     rtl:false,
     responsive: [
       {
+        breakpoint: 1249,
+        settings: {
+          slidesToShow: 10,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true
+        }
+      },
+      {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 7,
+          slidesToShow: 8,
           slidesToScroll: 1,
           infinite: false,
           dots: true
@@ -157,14 +166,14 @@ function toggleSidebar() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 7,
           slidesToScroll: 1
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 6,
           slidesToScroll: 1
         }
       }
