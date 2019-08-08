@@ -245,6 +245,7 @@ html, body {
 
 
 .slick-container .slick-item {
+    width: 100px !important;
     height: 100% !important;
     transform: skew(-20deg);
     transition: transform .1s ease-in-out;
