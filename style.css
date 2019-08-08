@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family:'Century Gothic','Futura','Didact Gothic',san-serif;
+    overflow: hidden;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  header {
+    width: 100%;
+    height: 100px;
+    padding: 0.5rem;
+    display: flex !important;
+    justify-content: space-between;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: 2px solid black;
+  }
+  
+
+
+  .logo {
+    height: 100%;
+    align-self: center; 
+    display: flex;
+    max-width: 30%;
+    position: relative;
+}
+
+.logo p {
+    font-size: 1rem;
+    margin: 0;
+    white-space: nowrap;
+    align-self: flex-end;
+    max-width: fit-content;
+}
+
+.logo img {
+    height: 100%;
+}
+
+
+#geometric {
+    transition: all 500ms linear;
+}
+
+#geometric.active {
+    visibility: hidden;
+}
+
+.hamburger-container {
+    text-align: right;
+
+}
+
+
+.hamburger-container .menu {
+    height: 100%;
+    display: flex;
+}
+
+
+
+.hamburger-container .menu a {
+    padding-top: 3rem !important;
+    align-self: flex-end;
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem !important;
+}
+
+
+
+
+.hamburger-container #toggle-button {
+    margin: 20px 0px 0 0 ;
+    display: none;
+}
+
+
+
+#toggle-button {
+    cursor: pointer;
+    padding: 15px;
+    width: 40px;
+}
+
+#toggle-button:hover span {
+	cursor: pointer;
+}
+
+
+
+.line-1, .line-2, .line-3 {
+
+	cursor: pointer;
+	border-radius: 4px;
+	height: 3px;
+	width: 40px;
+	background: #000;
+	position: relative;
+	display: block;
+    content: '';
+    transition: all 300ms ease-in;
+
+}
+
+.line-1, .line-2 {
+    margin-bottom :6px;
+}
+
+
+
+#toggle-button.active .line-2 {
+
+    background-color: transparent;
+}
+
+#toggle-button.active .line-1 {
+
+    top: 10px;
+    position: absolute;
+}
+
+#toggle-button.active .line-3 {
+
+    bottom: 10px;
+    position: absolute;
+}
+
+#toggle-button.active .line-1 {
+	transform: rotate(45deg);
+    top: 26px;
+}
+
+#toggle-button.active .line-3 {
+	transform: rotate(-45deg);
+}
+
+
+
+#toggle {
+    display: none;
+}
+
+.ratio-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border: 2px solid blue;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+* {
+    border: none !important;
+}
+
+
+
+.ratio {
+    /* display: none; */
+    position: relative;
+    padding-top: 56.25%;
+    width: 100%;
+    background: url('images/main01.jpg');
+    background-size: cover;
+    border: 2px solid black;
+    align-self: center;
+    box-sizing: border-box;
+    transform: scale(0.7);
+    
+}
+
+
+/*w3-content*/
+
+.w3-content {
+    border: 2px solid black;
+}
+
+/* end w3-content*/
+
+
+
+
+
+
+
+.slick-container {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    overflow: visible !important;
+    border: 2px solid blue;
+}
+
+
+
+.slick-prev {
+    z-index: 1;
+}
+
+
+.slick-list {
+    height: 100%;
+    overflow: visible !important;
+
+}
+
+.slick-track {
+    height: 100%;
+    overflow: visible !important;
+}
+
+
+.slick {
+    max-width: 95%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+
+.slick-container .slick-item {
+    height: 100% !important;
+    transform: skew(-20deg);
+    transition: transform .1s ease-in-out;
+    outline: none;
+}
+
+
+
+
+.slick-container .slick-item:hover {
+    transform: skew(-20deg) translateY(-15%);
+}
+
+.slick-container button {
+    background: blue;
+    opacity: 0;
+    height: 100%;
+    width: 100px;
+}
+
+
+
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick p {
+    margin: 0;
+}
+
+
+
+.slick-item p {
+    font-size: 4.5vh !important;
+}
+
+
+.slick-item-1 {
+    background: #67CCE0;
+    color: #fff;
+    display: flex !important;
+}
+
+.slick-item-1 p {
+    align-self: flex-end;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+
+.slick-item-2 {
+    background: url('images/main01.jpg');
+    background-size: cover;
+
+}
+
+.slick-item-3 {
+    background: url('images/main02.jpg');
+    background-size: cover;
+}
+
+.slick-item-4 {
+    background: url('images/main03.jpg');
+    background-size: cover;
+}
+
+.slick-item-5 {
+    background: #CF6EF3;
+    color: #fff;
+    display: flex !important;
+}
+
+.slick-item-5 p {
+    align-self: flex-end;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+.slick-item-6 {
+    background: url('images/main04.jpg');
+    background-size: cover;
+}
+
+.slick-item-7 {
+    background: url('images/main05.jpg');
+    background-size: cover;
+}
+
+.slick-item-8 {
+    background: url('images/main06.jpg');
+    background-size: cover;
+}
+
+.slick-item-9 {
+    background: #67CCE0;
+    color: #fff;
+    display: flex !important;
+}
+
+.slick-item-9 p {
+    align-self: flex-end;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+.slick-item-10 {
+    background: url('images/main07.jpg');
+    background-size: cover;
+}
+
+.slick-item-11 {
+    background: url('images/main08.jpg');
+    background-size: cover;
+}
+
+.slick-item-12 {
+    background: url('images/main09.jpg');
+    background-size: cover;
+}
+
+
+
+
+
+
+
+  
+
+@media only screen and (max-width: 992px) {
+
+
+    .hamburger-container #toggle-button {
+        display: block !important;
+        cursor: pointer;
+    }
+
+
+    @media only screen and (max-width: 450px) {
+        .logo {
+            transform: scale(0.8);
+        }
+    
+    }
+    
+    @media only screen and (max-width: 350px) {
+    
+        .logo {
+            transform: scale(0.7);
+        }
+    
+        .logo p {
+            font-size: 0.9rem;
+        }
+    }
+    
+    @media only screen and (max-width: 320px) {
+        .logo p {
+            display: none;
+        }
+    }
+    
+
+
+
+
+
+.hamburger-container {
+    width: 100%;
+}
+
+
+.logo img {
+   
+    transform: scale(0.7);
+
+}
+
+
+.hamburger-container #toggle-button {
+    float: right;
+}
+
+
+
+
+
+.hamburger-container .menu {
+    clear: left !important;
+    text-align: center;
+    position: relative;
+    display: none;
+
+}
+
+
+
+
+#toggle-button {
+    position: relative;
+    z-index: 1;
+}
+}
+
+
+
+
+
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer; background: #000 !important;}
+.w3-badge {height:13px;width:13px;padding:0}
