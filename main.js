@@ -136,7 +136,7 @@ function toggleSidebar() {
     dots: false,
     infinite: false,
     pauseOnHover: true,
-    slidesToShow: 8,
+    slidesToShow: 10,
     autoplay: false,
     autoplaySpeed: 1,
     slidesToScroll: 1,
