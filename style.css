@@ -155,7 +155,7 @@ html, body {
     display: none;
 }
 
-.ratio-container {
+.ratio-container2019-1 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -168,19 +168,52 @@ html, body {
     position: relative;
 }
 
-/* .project-change {
-    border: 2px solid red;
+.project-change2019-1 {
+    align-self: center;
+    position: relative;
+    left: 15%;
+    width: 80px;
+    height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-} */
+    transform: scale(0.6);
+}
+
+.project-change2019-1 > * {
+    height: 30%;
+    cursor: pointer;
+}
 
 
 
+.project-change2019-1 .p2019-1-a {
+    background: url('images/main01.jpg');
+    background-size: cover;
+}
 
-.ratio {
-    /* display: none; */
+
+
+.project-change2019-1 .p2019-1-b {
+    background: url('images/main02.jpg');
+    background-size: cover;
+}
+
+
+.project-change2019-1 .p2019-1-c {
+    background: url('images/main03.jpg');
+    background-size: cover;
+}
+
+
+
+.red-border {
+    border: 5px solid red;
+}
+
+
+#ratio2019-1 {
     position: relative;
     padding-top: 56.25%;
     width: 100%;
@@ -194,17 +227,159 @@ html, body {
 }
 
 
-/*w3-content*/
+/* ratio-container2019-2*/
 
-.w3-content {
+.ratio-container2019-2 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    border: 2px solid blue;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 2px solid blue;
+    position: relative;
+}
+
+.project-change2019-2 {
+    align-self: center;
+    position: relative;
+    left: 15%;
+    width: 80px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    transform: scale(0.6);
+}
+
+.project-change2019-2 > * {
+    height: 30%;
+    cursor: pointer;
+}
+
+
+
+.project-change2019-2 .p2019-2-a {
+    background: url('images/main04.jpg');
+    background-size: cover;
+}
+
+
+
+.project-change2019-2 .p2019-2-b {
+    background: url('images/main05.jpg');
+    background-size: cover;
+}
+
+
+.project-change2019-2 .p2019-2-c {
+    background: url('images/main06.jpg');
+    background-size: cover;
+}
+
+
+
+.red-border {
+    border: 5px solid red;
+}
+
+
+#ratio2019-2 {
+    position: relative;
+    padding-top: 56.25%;
+    width: 100%;
+    background: url('images/main01.jpg');
+    background-size: cover;
     border: 2px solid black;
+    align-self: center;
+    box-sizing: border-box;
+    transform: scale(0.6);
+    
 }
 
-/* end w3-content*/
+/* end ratio-container2019-2*/
 
-* {
-    border: none !important;
+
+/* ratio-container2019-3*/
+
+.ratio-container2019-3 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    border: 2px solid blue;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 2px solid blue;
+    position: relative;
 }
+
+.project-change2019-3 {
+    align-self: center;
+    position: relative;
+    left: 15%;
+    width: 80px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    transform: scale(0.6);
+}
+
+.project-change2019-3 > * {
+    height: 30%;
+    cursor: pointer;
+}
+
+
+
+.project-change2019-3 .p2019-3-a {
+    background: url('images/main07.jpg');
+    background-size: cover;
+}
+
+
+
+.project-change2019-3 .p2019-3-b {
+    background: url('images/main08.jpg');
+    background-size: cover;
+}
+
+
+.project-change2019-3 .p2019-3-c {
+    background: url('images/main09.jpg');
+    background-size: cover;
+}
+
+
+
+.red-border {
+    border: 5px solid red;
+}
+
+
+#ratio2019-3 {
+    position: relative;
+    padding-top: 56.25%;
+    width: 100%;
+    background: url('images/main01.jpg');
+    background-size: cover;
+    border: 2px solid black;
+    align-self: center;
+    box-sizing: border-box;
+    transform: scale(0.6);
+    
+}
+
+/*end ratio-container2019-3*/
+
 
 
 
@@ -305,12 +480,12 @@ html, body {
 }
 
 .slick-item-3 {
-    background: url('images/main02.jpg');
+    background: url('images/main04.jpg');
     background-size: cover;
 }
 
 .slick-item-4 {
-    background: url('images/main03.jpg');
+    background: url('images/main07.jpg');
     background-size: cover;
 }
 
@@ -369,9 +544,17 @@ html, body {
 }
 
 
+.slick-item-1:hover + .overlay2019 {
+    display: block;
+}
 
-
-
+.overlay2019 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #67CCE0;
+    opacity: 0.7;
+}
 
 
   
