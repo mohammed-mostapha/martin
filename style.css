@@ -85,7 +85,7 @@ html, body {
 
 
 .hamburger-container #toggle-button {
-    margin: 20px 0px 0 0 ;
+    /* margin: 20px 0px 0 0 ; */
     display: none;
 }
 
@@ -423,7 +423,18 @@ html, body {
 /*end ratio-container2019-3*/
 
 
+@media only screen and (max-width: 600px) {
+    .project-change2019-1, .project-change2019-2, .project-change2019-3 {
+        height: 60%;
+    }
+}
 
+
+@media only screen and (max-height: 270px) {
+    .slick-container {
+        height: 80px !important;
+    }
+}
 
 .slick-container {
     position: relative;
