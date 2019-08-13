@@ -387,5 +387,4 @@ function toggleSidebar() {
   
     });     
   
-  
-
+    
