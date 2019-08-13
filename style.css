@@ -155,6 +155,56 @@ html, body {
     display: none;
 }
 
+
+
+#sidebar-menu {
+    position: fixed;
+    z-index: 0;
+    height: 100%;
+    width: 0px;
+    background: #fff;
+    color: #000;
+    right: 0px;
+    transition: all 500ms linear;
+    box-shadow: 0px 0px 30px 0px grey;
+}
+
+#sidebar-menu.active {
+    width: 150px;
+}
+
+#sidebar-menu ul {
+    display: block;
+    width: fit-content;
+    margin: 3rem auto;
+    list-style: none;
+    padding-left: 0px;
+    height: 100%;
+    padding-top: 10%;
+
+}
+
+#sidebar-menu ul li {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #000;
+}
+
+#content-wrapper {
+    position: relative;
+    left: 0;
+    transition: all 500ms linear;
+}
+
+#content-wrapper.active {
+    left: -150px;
+}
+
+
+
+
 .ratio-container2019-1 {
     width: 100%;
     height: 100%;
@@ -556,9 +606,9 @@ html, body {
 }
 
 
-* {
+/* * {
     border: none !important;
-}
+} */
 
   
 
