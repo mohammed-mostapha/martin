@@ -84,7 +84,6 @@ html, body {
 
 
 .hamburger-container #toggle-button {
-    /* margin: 20px 0px 0 0 ; */
     display: none;
 }
 
@@ -425,6 +424,8 @@ html, body {
     position: absolute;
     top: 100%;
     font-size: 4.5vh;
+    font-weight: 900;
+    border-bottom: 5px solid #000;
 }
 
 #project-description20192 {
@@ -433,6 +434,8 @@ html, body {
     position: absolute;
     top: 100%;
     font-size: 4.5vh;
+    font-weight: 900;
+    border-bottom: 5px solid #000;
 }
 
 #project-description20193 {
@@ -441,6 +444,8 @@ html, body {
     position: absolute;
     top: 100%;
     font-size: 4.5vh;
+    font-weight: 900;
+    border-bottom: 5px solid #000;
 }
 
 
@@ -510,7 +515,6 @@ html, body {
 }
 
 .slick-container button {
-    background: blue;
     opacity: 0;
     height: 100%;
     width: 50px;
@@ -640,7 +644,7 @@ html, body {
 }
 
 .slick-item-1:hover ~ *.slick-item *.overlay2019 {
-    display: block !important;
+    display: block;
 
 }
 
@@ -653,7 +657,7 @@ html, body {
 }
 
 .slick-item-9:hover ~ *.slick-item *.overlay2017 {
-    display: block !important;
+    display: block;
 
 }
 
