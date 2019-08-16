@@ -408,7 +408,8 @@ function toggleSidebar() {
         }
       }
   
-    ]
+    ],
+    mobileFirst: true
   });
   
   
@@ -435,4 +436,5 @@ function toggleSidebar() {
   
     });     
   
+    
     
