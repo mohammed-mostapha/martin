@@ -73,7 +73,6 @@ html, body {
 
 
 .hamburger-container .menu a {
-    padding-top: 3rem !important;
     align-self: flex-end;
     color: #000;
     text-decoration: none;
@@ -220,7 +219,7 @@ html, body {
     align-self: center;
     position: relative;
     left: 15%;
-    width: 80px;
+    width: 90px;
     height: 240px;
     display: flex;
     flex-direction: column;
@@ -267,7 +266,6 @@ html, body {
     width: 100%;
     background: url('images/main01.jpg');
     background-size: cover;
-    border: 2px solid black;
     align-self: center;
     box-sizing: border-box;
     transform: scale(0.6);
@@ -292,7 +290,7 @@ html, body {
     align-self: center;
     position: relative;
     left: 15%;
-    width: 80px;
+    width: 90px;
     height: 240px;
     display: flex;
     flex-direction: column;
@@ -339,7 +337,6 @@ html, body {
     width: 100%;
     background: url('images/main01.jpg');
     background-size: cover;
-    border: 2px solid black;
     align-self: center;
     box-sizing: border-box;
     transform: scale(0.6);
@@ -366,7 +363,7 @@ html, body {
     align-self: center;
     position: relative;
     left: 15%;
-    width: 80px;
+    width: 90px;
     height: 240px;
     display: flex;
     flex-direction: column;
@@ -413,7 +410,6 @@ html, body {
     width: 100%;
     background: url('images/main01.jpg');
     background-size: cover;
-    border: 2px solid black;
     align-self: center;
     box-sizing: border-box;
     transform: scale(0.6);
@@ -423,11 +419,37 @@ html, body {
 /*end ratio-container2019-3*/
 
 
-@media only screen and (max-width: 600px) {
+#project-description20191 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    font-size: 4.5vh;
+}
+
+#project-description20192 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    font-size: 4.5vh;
+}
+
+#project-description20193 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    font-size: 4.5vh;
+}
+
+
+
+/* @media only screen and (max-width: 600px) {
     .project-change2019-1, .project-change2019-2, .project-change2019-3 {
         height: 60%;
     }
-}
+} */
 
 
 @media only screen and (max-height: 270px) {
