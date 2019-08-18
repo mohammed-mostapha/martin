@@ -460,15 +460,12 @@ html, body {
 
 }
 
-.contact-preview {
-    padding-bottom: 0;
-}
 
 .contact-text {
     font-size: 2.5vh;
-    color: red;
+    color: #000;
     text-align: center;
-    /* margin-bottom: 2rem; */
+    padding-bottom: 0.5rem;
 }
 
 
@@ -477,7 +474,6 @@ html, body {
     width: 70%;
     height: 50%;
     margin: 0 auto;
-    border: 5px solid red;
     display: grid;
     padding: 1rem;
     grid-column-gap: 3rem;
@@ -487,7 +483,6 @@ html, body {
 
 
 .persons-container > * {
-    border: 2px solid green;
     display: flex;
 }
 
@@ -500,7 +495,7 @@ html, body {
     display: grid;
     grid-gap: 1rem;
     text-align: center;
-    font-size: 1.5vh;
+    font-size: 2.5vh;
 }
 
 .text span {
@@ -520,8 +515,15 @@ html, body {
     max-height: 100%;
 }
 
-.persons > * , .text > * {
-    border: 2px solid green;
+.person1 img, .person2 img, .person3 img {
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 grey;
+}
+
+ .text > * {
+    border: 2px solid grey;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 grey;
 }
 
 

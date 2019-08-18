@@ -62,7 +62,7 @@
                 <!-- about-container-->
                 <div class="persons-container">
                     <div class="persons">
-                    <div class="person1"><img src="images/architect.jpg" alt=""></div>
+                    <div class="person1"><a href="cv.pdf" download><img src="images/architect.jpg" alt=""></a></div>
                     <div class="person2"><img src="images/architect.jpg" alt=""></div>
                     <div class="person3"><img src="images/architect.jpg" alt=""></div>
                     </div>
@@ -79,6 +79,20 @@
                 <div class="contact-text">Contact me:<br/>studio@geometric-architecture<br/>contact me contact me<br/>contact me contact me<br/>contact me contact me</div>
                 <!-- end contact text-->
 
-                <script src="main.js"></script>
+                <script>
+                    
+                    function toggleSidebar() {
+                        document.getElementById("sidebar-menu").classList.toggle('active');
+                        document.getElementById("content-wrapper").classList.toggle('active');
+                        document.getElementById("geometric").classList.toggle('active');
+                    }
+                    
+                    
+                    $("#toggle-button").click(function(){
+                        $(this).toggleClass("active")
+                    });
+                    
+                
+                </script>
             </body>
             </html>
