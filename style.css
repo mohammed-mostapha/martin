@@ -98,7 +98,6 @@ html, body {
     cursor: pointer;
     padding: 15px;
     width: 40px;
-    margin: 20px 0 0 0;
 }
 
 #toggle-button:hover span {
