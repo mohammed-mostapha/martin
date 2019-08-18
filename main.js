@@ -479,6 +479,4 @@ function toggleSidebar() {
   
     
 
-  $(window).resize(function() {
-    location.reload();
-  });
+ 

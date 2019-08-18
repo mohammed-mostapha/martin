@@ -109,10 +109,9 @@ html, body {
 
 
 .line-1, .line-2, .line-3 {
-
 	cursor: pointer;
 	border-radius: 4px;
-	height: 3px;
+	height: 2px;
 	width: 40px;
 	background: #000;
 	position: relative;
