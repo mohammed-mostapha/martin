@@ -81,9 +81,9 @@ function toggleSidebar() {
     $('.ratio-container2019-1').css({'display': 'flex'});
     $('.ratio-container2019-2').css({'display': 'none'});
     $('.ratio-container2019-3').css({'display': 'none'});
-    $('.p2019-1-a').removeClass('red-border');
-    $('.p2019-1-b').removeClass('red-border');
-    $('.p2019-1-c').removeClass('red-border');
+    $('.p2019-1-a').removeClass('red-outline');
+    $('.p2019-1-b').removeClass('red-outline');
+    $('.p2019-1-c').removeClass('red-outline');
   });
   
 
@@ -91,9 +91,9 @@ function toggleSidebar() {
     $('.ratio-container2019-1').css({'display': 'none'});
     $('.ratio-container2019-3').css({'display': 'none'});
     $('.ratio-container2019-2').css({'display': 'flex'});
-    $('.p2019-2-a').removeClass('red-border');
-    $('.p2019-2-b').removeClass('red-border');
-    $('.p2019-2-c').removeClass('red-border');
+    $('.p2019-2-a').removeClass('red-outline');
+    $('.p2019-2-b').removeClass('red-outline');
+    $('.p2019-2-c').removeClass('red-outline');
   });
 
 
@@ -102,9 +102,9 @@ function toggleSidebar() {
     $('.ratio-container2019-1').css({'display': 'none'});
     $('.ratio-container2019-2').css({'display': 'none'});
     $('.ratio-container2019-3').css({'display': 'flex'});
-    $('.p2019-3-a').removeClass('red-border');
-    $('.p2019-3-b').removeClass('red-border');
-    $('.p2019-3-c').removeClass('red-border');
+    $('.p2019-3-a').removeClass('red-outline');
+    $('.p2019-3-b').removeClass('red-outline');
+    $('.p2019-3-c').removeClass('red-outline');
   });
 
   
@@ -250,9 +250,9 @@ function toggleSidebar() {
       $('#ratio2019-1').css({
         'background-image': "url('images/main01.jpg')"
       });
-      $(this).addClass('red-border');
-      $('.p2019-1-b').removeClass('red-border');
-      $('.p2019-1-c').removeClass('red-border');
+      $(this).addClass('red-outline');
+      $('.p2019-1-b').removeClass('red-outline');
+      $('.p2019-1-c').removeClass('red-outline');
     });
 
     $('.p2019-1-b').click(function() {
@@ -260,9 +260,9 @@ function toggleSidebar() {
       $('#ratio2019-1').css({
         'background-image': "url('images/main11.jpg')"
       });
-      $(this).addClass('red-border');
-      $('.p2019-1-a').removeClass('red-border');
-      $('.p2019-1-c').removeClass('red-border');
+      $(this).addClass('red-outline');
+      $('.p2019-1-a').removeClass('red-outline');
+      $('.p2019-1-c').removeClass('red-outline');
 
     });
 
@@ -271,9 +271,9 @@ function toggleSidebar() {
       $('#ratio2019-1').css({
         'background-image': "url('images/main12.jpg')"
       });
-      $(this).addClass('red-border');
-      $('.p2019-1-a').removeClass('red-border');
-      $('.p2019-1-b').removeClass('red-border');
+      $(this).addClass('red-outline');
+      $('.p2019-1-a').removeClass('red-outline');
+      $('.p2019-1-b').removeClass('red-outline');
     });
 
 
@@ -286,9 +286,9 @@ function toggleSidebar() {
       $('#ratio2019-2').css({
         'background-image': "url('images/main04.jpg')"
       });
-      $(this).addClass('red-border');
-      $('.p2019-2-b').removeClass('red-border');
-      $('.p2019-2-c').removeClass('red-border');
+      $(this).addClass('red-outline');
+      $('.p2019-2-b').removeClass('red-outline');
+      $('.p2019-2-c').removeClass('red-outline');
     });
 
     $('.p2019-2-b').click(function() {
@@ -296,9 +296,9 @@ function toggleSidebar() {
       $('#ratio2019-2').css({
         'background-image': "url('images/main05.jpg')"
       });
-      $(this).addClass('red-border');
-      $('.p2019-2-a').removeClass('red-border');
-      $('.p2019-2-c').removeClass('red-border');
+      $(this).addClass('red-outline');
+      $('.p2019-2-a').removeClass('red-outline');
+      $('.p2019-2-c').removeClass('red-outline');
 
     });
 
@@ -307,9 +307,9 @@ function toggleSidebar() {
       $('#ratio2019-2').css({
         'background-image': "url('images/main06.jpg')"
       });
-      $(this).addClass('red-border');
-      $('.p2019-2-a').removeClass('red-border');
-      $('.p2019-2-b').removeClass('red-border');
+      $(this).addClass('red-outline');
+      $('.p2019-2-a').removeClass('red-outline');
+      $('.p2019-2-b').removeClass('red-outline');
     });
 
 
@@ -323,9 +323,9 @@ function toggleSidebar() {
       $('#ratio2019-3').css({
         'background-image': "url('images/main07.jpg')"
       });
-      $(this).addClass('red-border');
-      $('.p2019-3-b').removeClass('red-border');
-      $('.p2019-3-c').removeClass('red-border');
+      $(this).addClass('red-outline');
+      $('.p2019-3-b').removeClass('red-outline');
+      $('.p2019-3-c').removeClass('red-outline');
     });
 
     $('.p2019-3-b').click(function() {
@@ -333,9 +333,9 @@ function toggleSidebar() {
       $('#ratio2019-3').css({
         'background-image': "url('images/main08.jpg')"
       });
-      $(this).addClass('red-border');
-      $('.p2019-3-a').removeClass('red-border');
-      $('.p2019-3-c').removeClass('red-border');
+      $(this).addClass('red-outline');
+      $('.p2019-3-a').removeClass('red-outline');
+      $('.p2019-3-c').removeClass('red-outline');
 
     });
 
@@ -344,9 +344,9 @@ function toggleSidebar() {
       $('#ratio2019-3').css({
         'background-image': "url('images/main09.jpg')"
       });
-      $(this).addClass('red-border');
-      $('.p2019-3-a').removeClass('red-border');
-      $('.p2019-3-b').removeClass('red-border');
+      $(this).addClass('red-outline');
+      $('.p2019-3-a').removeClass('red-outline');
+      $('.p2019-3-b').removeClass('red-outline');
     });
 
 
