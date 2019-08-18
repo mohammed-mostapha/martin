@@ -374,37 +374,78 @@ function toggleSidebar() {
     swipe: true,
     touchMove: true,
     rtl:false,
+    variableWidth: true,
     responsive: [
       {
         breakpoint: 1249,
         settings: {
-          slidesToShow: 10,
-          slidesToScroll: 1,
+          dots: false,
           infinite: false,
-          dots: true
+          pauseOnHover: true,
+          slidesToShow: 10,
+          autoplay: false,
+          autoplaySpeed: 1,
+          slidesToScroll: 1,
+          draggable: true,
+          swipe: true,
+          touchMove: true,
+          rtl:false,
+          variableWidth: true,
+         
         }
       },
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 8,
-          slidesToScroll: 1,
+          dots: false,
           infinite: false,
-          dots: true
+          pauseOnHover: true,
+          slidesToShow: 8,
+          autoplay: false,
+          autoplaySpeed: 1,
+          slidesToScroll: 1,
+          draggable: true,
+          swipe: true,
+          touchMove: true,
+          rtl:false,
+          variableWidth: true,
+          
         }
       },
       {
         breakpoint: 600,
         settings: {
+          dots: false,
+          infinite: false,
+          pauseOnHover: true,
           slidesToShow: 7,
-          slidesToScroll: 1
+          autoplay: false,
+          autoplaySpeed: 1,
+          slidesToScroll: 1,
+          draggable: true,
+          swipe: true,
+          touchMove: true,
+          rtl:false,
+          variableWidth: true,
+          
         }
       },
       {
         breakpoint: 480,
         settings: {
+          dots: false,
+          infinite: false,
+          pauseOnHover: true,
           slidesToShow: 6,
-          slidesToScroll: 1
+          autoplay: false,
+          autoplaySpeed: 1,
+          slidesToScroll: 1,
+          draggable: true,
+          swipe: true,
+          touchMove: true,
+          rtl:false,
+          variableWidth: true,
+          
         }
       }
   
@@ -437,4 +478,7 @@ function toggleSidebar() {
     });     
   
     
-    
+
+  $(window).resize(function() {
+    location.reload();
+  });
