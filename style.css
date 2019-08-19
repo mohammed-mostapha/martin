@@ -48,6 +48,9 @@ html, body {
 
 .logo a {
     height: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #000;
 }
 
 .logo img {
@@ -460,11 +463,15 @@ html, body {
 }
 
 
+.contact-preview {
+    padding-bottom: 4.5rem;
+}
+
+
 .contact-text {
-    font-size: 2.5vh;
+    font-size: 1.9vh;
     color: #000;
     text-align: center;
-    padding-bottom: 0.5rem;
 }
 
 
@@ -494,7 +501,7 @@ html, body {
     display: grid;
     grid-gap: 1rem;
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 
 .text span {
@@ -516,13 +523,10 @@ html, body {
 
 .person1 img, .person2 img, .person3 img {
     border-radius: 5px;
-    box-shadow: 0 0 15px 0 grey;
 }
 
  .text > * {
-    border: 2px solid grey;
     border-radius: 5px;
-    box-shadow: 0 0 15px 0 grey;
 }
 
 
