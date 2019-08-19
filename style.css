@@ -500,7 +500,7 @@ html, body {
 .persons {
     display: grid;
     grid-gap: 1rem;
-    width: 75px;
+    width: 85px;
     
 }
 
