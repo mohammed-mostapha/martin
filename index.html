@@ -38,7 +38,7 @@
                         </div>
                         <input type="checkbox" id="toggle">
                         <div class="menu">
-                            <a href="#">projects</a>
+                            <a href="/">projects</a>
                             <a href="/contact.html">contact</a>
                             <a href="/about.html">about</a>
                         </div>
@@ -156,9 +156,15 @@
     <script src="main.js"></script>
 
     <script>
+
+         
+
          $(window).resize(function() {
-            location.reload();
+            window.location.href = window.location.href;
+            window.location.href.reload();
         });
+
+
     </script>
 
 </body>
