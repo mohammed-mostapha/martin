@@ -483,7 +483,8 @@ html, body {
 
 .persons-container {
     width: 70%;
-    height: 50%;
+    height: 80%;
+    align-self: center;
     margin: 0 auto;
     display: grid;
     padding: 1rem;
@@ -493,20 +494,22 @@ html, body {
 }
 
 
-.persons-container > * {
-    display: flex;
-}
 
 .persons {
     display: grid;
     grid-gap: 1rem;
-    width: 85px;
-    
+    width: 100%;
 }
 
 .person1, .person2, .person3 {
-    height: 11vh;
+    height: 10vh;
+    width: 10vh;
+    max-width: 10vh;
 }
+
+
+
+
 
 .text {
     display: grid;
@@ -518,11 +521,12 @@ html, body {
 .text span {
     width: fit-content;
     margin: 0 auto;
+    margin-top: 5%;
 }
 
 .text1, .text2, .text3 {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 
@@ -838,6 +842,8 @@ html, body {
     box-sizing: border-box;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: 1rem;
     padding-bottom: 4.5rem;
     position: relative;
+
 }
