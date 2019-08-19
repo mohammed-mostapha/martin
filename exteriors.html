@@ -39,7 +39,8 @@
                         <input type="checkbox" id="toggle">
                         <div class="menu">
                             <a href="/">home</a>
-                            <a href="/interiors and exteriors.html" class="red-text">INTERIORS and EXTERIORS</a>
+                            <a href="/interiors.html">INTERIORS</a>
+                            <a href="/exteriors.html" class="red-text">EXTERIORS</a>
                             <a href="/contact.html">contact</a>
                             <a href="/about.html">about</a>
                         </div>
@@ -53,7 +54,8 @@
                 <div id="sidebar-menu">
                         <ul>
                                 <a href="/"><li>home</li></a>
-                                <a href="/interiors and exteriors.html" class="red-text"><li>INTERIORS and EXTERIORS</li></a>
+                                <a href="/interiors.html"><li>INTERIORS</li></a>
+                                <a href="/exteriors.html" class="red-text"><li>EXTERIORS</li></a>
                                 <a href="/contact.html"><li>contact</li></a>
                                 <a href="/about.html"><li>about</li></a>
                         </ul>
@@ -71,7 +73,7 @@
 
                
                 <div id="ratio2019-1">
-                    <p id="project-description20191">P2019-1-a / about.....</p>
+                    <p id="project-description20191">E-P2019-1-a / about.....</p>
                 </div>
                 
                 
@@ -89,7 +91,7 @@
                     </div>
     
                     <div id="ratio2019-2">
-                        <p id="project-description20192">P2019-2-a / about.....</p>
+                        <p id="project-description20192">E-P2019-2-a / about.....</p>
                     </div>
     
                    
@@ -108,7 +110,7 @@
                     </div>
     
                     <div id="ratio2019-3">
-                        <p id="project-description20193">P2019-3-a / about.....</p>
+                        <p id="project-description20193">E-P2019-3-a / about.....</p>
                     </div>
     
                    
@@ -165,6 +167,151 @@
             window.location.href = window.location.href;
             window.location.href.reload();
         });
+
+
+
+
+        var myVar20191, myVar20192, myVar20193;
+  
+  var currentBackground20191 = 0,
+      backgrounds20191 = [];
+
+  
+      backgrounds20191[0] = '/images/main01.jpg';
+      backgrounds20191[1] = '/images/main02.jpg';
+      backgrounds20191[2] = '/images/main03.jpg';
+
+
+
+
+      var currentProjectDescription20191 = 0,
+      projectDescription20191 = [];
+
+      projectDescription20191[0] = "E-P2019-1-a / about.....";
+      projectDescription20191[1] = "E-P2019-1-b / about.....";
+      projectDescription20191[2] = "E-P2019-1-c / about.....";
+
+
+  
+  function changeBackground20191() {
+    currentBackground20191++;
+    if(currentBackground20191 > 2) currentBackground20191 = 0;
+
+    currentProjectDescription20191++;
+    if(currentProjectDescription20191 > 2) currentProjectDescription20191 = 0;
+  
+    
+ 
+  
+    $('#ratio2019-1').fadeOut(100, function() {
+      $('#ratio2019-1').css({
+        'background': "url('" + backgrounds20191[currentBackground20191] + "')", 'background-repeat': 'no-repeat', 'background-size': 'cover'
+      });
+
+      
+      $('#ratio2019-1').fadeIn(100);
+  
+    });
+    
+    
+    document.querySelector('#project-description20191').innerHTML = "" + projectDescription20191[currentProjectDescription20191] + "";
+   
+
+  
+    myVar20191 = setTimeout(changeBackground20191, 3000);
+
+  }
+  
+
+  var currentBackground20192 = 0,
+      backgrounds20192 = [];
+  
+      backgrounds20192[0] = '/images/main04.jpg';
+      backgrounds20192[1] = '/images/main05.jpg';
+      backgrounds20192[2] = '/images/main06.jpg';
+
+      var currentProjectDescription20192 = 0,
+      projectDescription20192 = [];
+
+      projectDescription20192[0] = "E-P2019-2-a / about.....";
+      projectDescription20192[1] = "E-P2019-2-b / about.....";
+      projectDescription20192[2] = "E-P2019-2-c / about.....";
+  
+  function changeBackground20192() {
+  
+    
+    currentBackground20192++;
+    if(currentBackground20192 > 2) currentBackground20192 = 0;
+
+    currentProjectDescription20192++;
+    if(currentProjectDescription20192 > 2) currentProjectDescription20192 = 0;
+    
+  
+    $('#ratio2019-2').fadeOut(100, function() {
+      $('#ratio2019-2').css({
+        'background-image': "url('" + backgrounds20192[currentBackground20192] + "')", 'background-repeat': 'no-repeat', 'background-size': 'cover'
+      });
+  
+      $('#ratio2019-2').fadeIn(100);
+  
+    });
+  
+    document.querySelector('#project-description20192').innerHTML = "" + projectDescription20192[currentProjectDescription20192] + "";
+
+      myVar20192 = setTimeout(changeBackground20192, 3000)
+  
+  
+  }
+  
+  
+  
+      var currentBackground20193 = 0,
+      backgrounds20193 = [];
+  
+      backgrounds20193[0] = '/images/main07.jpg';
+      backgrounds20193[1] = '/images/main08.jpg';
+      backgrounds20193[2] = '/images/main09.jpg';
+
+      var currentProjectDescription20193 = 0,
+      projectDescription20193 = [];
+
+      projectDescription20193[0] = "E-P2019-3-a / about.....";
+      projectDescription20193[1] = "E-P2019-3-b / about.....";
+      projectDescription20193[2] = "E-P2019-3-c / about.....";
+
+  
+      function changeBackground20193() {
+  
+    
+      currentBackground20193++;
+      if(currentBackground20193 > 2) currentBackground20193 = 0;
+
+      currentProjectDescription20193++;
+      if(currentProjectDescription20193 > 2) currentProjectDescription20193 = 0;
+    
+  
+      $('#ratio2019-3').fadeOut(100, function() {
+        $('#ratio2019-3').css({
+          'background-image': "url('" + backgrounds20193[currentBackground20193] + "')", 'background-repeat': 'no-repeat', 'background-size': 'cover'
+       });
+  
+      $('#ratio2019-3').fadeIn(100);
+  
+      });
+  
+      document.querySelector('#project-description20193').innerHTML = "" + projectDescription20193[currentProjectDescription20193] + "";
+
+      myVar20193 = setTimeout(changeBackground20193, 3000)
+  
+  
+  }
+  
+  
+
+
+
+
+
 
 
     </script>
