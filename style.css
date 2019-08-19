@@ -28,7 +28,9 @@ html, body {
     border-bottom: 1px solid black;
   }
   
-
+  .about-header {
+      height: 81px;
+  }
 
   .logo {
     height: 100%;
@@ -267,11 +269,16 @@ html, body {
     background-size: cover;
 }
 
+.red-text {
+    color: red !important;
+}
 
 
 .red-border {
     border: 5px solid red;
 }
+
+
 
 
 #ratio2019-1 {
