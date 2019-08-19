@@ -500,12 +500,12 @@ html, body {
 .persons {
     display: grid;
     grid-gap: 1rem;
-    width: 100px;
+    width: 75px;
     
 }
 
 .person1, .person2, .person3 {
-    height: 100px;
+    height: 11vh;
 }
 
 .text {
